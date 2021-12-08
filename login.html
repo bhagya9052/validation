@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<script src="javascript/login.js"></script>
+</head>
+<center>
+<body style="background-color:lightgreen;background-image:url('login.jpg');background-repeat:no-repeat;background-size:100% 150%;">
+<header>
+<h1 class="heading" style="padding-right:60%;"><b>Login Here<b></h1>
+</header>
+	<div class="login">
+
+<form style="text-align:center;border-style:solid;border-width:4px;padding:5px;border-color:black;margin-top:200px;margin-bottom:60px;margin-left:200px;margin-right:200px;padding-top:3%;padding-bottom:3%;">
+<div class="login">
+	<table style="margin-left:35%;">
+	<tr>
+<h2><p id="Uname"></p></h2>
+	<td style="color:white;">Username :</td>
+	<td><input type="text" placeholder="Enter user name here" id="uname" /></td>
+	</tr>
+<br>
+
+	<tr>
+<h2><p id="Email"></p></h2>
+	<td style="color:white;">E-Mail :</td>
+	<td><input type="email" placeholder="Enter email id here" id="email"  /></td>
+	</tr>
+	<tr>
+<h2><p id="Pass"></p></h2>
+	<td style="color:white;">Password:</td>
+	<td><input type="password" placeholder="Enter Password here" id="pwd" /></td>
+	</tr>
+<br>
+
+	<tr>
+	<td></td>
+<h2><p id="logged"></p></h2>
+	<td>
+	<input type="reset" value="Reset" onclick="clearFunc()" style="background-color:red;"  />
+<input type="button" value="Back" onclick="window.location='first.html'" style="background-color:red;"/>
+	<input type="button" value="Login"  onClick="login()" style="background-color:red;"/></td>
+	</tr>
+	</table>
+	</div>
+</form>
+
+<br>
+</div>
+
+
+<footer>
+copyright.All right reserved 2021.
+</footer>
+
+
+
+</body>
+
+</html>
